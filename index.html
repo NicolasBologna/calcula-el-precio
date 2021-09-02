@@ -16,23 +16,30 @@
 
 <body>
 
-    <div>
-        <span class="input-group-text" id="basic-addon1">Ingrese el precio del producto:</span>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <span class="input-group-text" id="basic-addon1">Ingrese el precio del producto:</span>
+            
+            <input type="number" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
         
-        <input type="number" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    
+            <div input-group mb-3>
+                <span class="input-group-text" id="basic-addon1">Ingrese la cantidad de cuotas:</span>
+                <select name="cant_cuotas" id="cant_cuotas" class="form-select">
+                    <option value="3">3</option>
+                    <option value="6" selected>6</option>
+                    <option value="9">9</option>
+                    <option value="12">12</option>
+                    <option value="18">18</option>
+                    <option value="24">24</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
     </div>
 
-    <div input-group mb-3>
-        <span class="input-group-text" id="basic-addon1">Ingrese la cantidad de cuotas:</span>
-        <select name="cant_cuotas" id="cant_cuotas">
-            <option value="3">3</option>
-            <option value="6" selected>6</option>
-            <option value="9">9</option>
-            <option value="12">12</option>
-            <option value="18">18</option>
-            <option value="24">24</option>
-        </select>
-    </div>
+    
 
 
 </body>
